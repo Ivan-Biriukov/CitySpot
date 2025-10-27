@@ -6,27 +6,62 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EC7F0F9C2EAFC163005C3A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F0F8F2EAFC163005C3A28 /* AppDelegate.swift */; };
+		EC7F0F9D2EAFC163005C3A28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F0F902EAFC163005C3A28 /* SceneDelegate.swift */; };
+		EC7F0F9E2EAFC163005C3A28 /* CitySpots.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC7F0F932EAFC163005C3A28 /* CitySpots.xcdatamodeld */; };
+		EC7F0FA02EAFC163005C3A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7F0F922EAFC163005C3A28 /* Assets.xcassets */; };
+		EC7F0FA22EAFC163005C3A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7F0F962EAFC163005C3A28 /* LaunchScreen.storyboard */; };
+		EC7F0FC72EAFDED2005C3A28 /* ExploreRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F0FC62EAFDED2005C3A28 /* ExploreRoutes.swift */; };
+		EC7F0FCA2EAFDF07005C3A28 /* PlaceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F0FC92EAFDF07005C3A28 /* PlaceCategory.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EC7F0F732EAFC0A1005C3A28 /* CitySpots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySpots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7F0F8F2EAFC163005C3A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC7F0F902EAFC163005C3A28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC7F0F922EAFC163005C3A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7F0F942EAFC163005C3A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7F0F952EAFC163005C3A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC7F0F9B2EAFC163005C3A28 /* CitySpots.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CitySpots.xcdatamodel; sourceTree = "<group>"; };
+		EC7F0FC62EAFDED2005C3A28 /* ExploreRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRoutes.swift; sourceTree = "<group>"; };
+		EC7F0FC92EAFDF07005C3A28 /* PlaceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EC7F0F882EAFC0A2005C3A28 /* Exceptions for "CitySpots" folder in "CitySpots" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = EC7F0F722EAFC0A1005C3A28 /* CitySpots */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EC7F0F752EAFC0A1005C3A28 /* CitySpots */ = {
+		EC7F0FA52EAFC183005C3A28 /* Helpers */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EC7F0F882EAFC0A2005C3A28 /* Exceptions for "CitySpots" folder in "CitySpots" target */,
-			);
-			path = CitySpots;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EC7F0FA72EAFC197005C3A28 /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EC7F0FA82EAFC19E005C3A28 /* Extensions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EC7F0FAD2EAFD6D8005C3A28 /* Tabbar */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		EC7F0FB52EAFDBD6005C3A28 /* VIP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		EC7F0FB82EAFDBF4005C3A28 /* Factory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		EC7F0FB92EAFDBFB005C3A28 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +80,7 @@
 		EC7F0F6A2EAFC0A1005C3A28 = {
 			isa = PBXGroup;
 			children = (
-				EC7F0F752EAFC0A1005C3A28 /* CitySpots */,
+				EC7F0F9A2EAFC163005C3A28 /* CitySpots */,
 				EC7F0F742EAFC0A1005C3A28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +91,76 @@
 				EC7F0F732EAFC0A1005C3A28 /* CitySpots.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7F0F912EAFC163005C3A28 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F0F8F2EAFC163005C3A28 /* AppDelegate.swift */,
+				EC7F0F902EAFC163005C3A28 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EC7F0F9A2EAFC163005C3A28 /* CitySpots */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F0F912EAFC163005C3A28 /* Application */,
+				EC7F0FA82EAFC19E005C3A28 /* Extensions */,
+				EC7F0FA52EAFC183005C3A28 /* Helpers */,
+				EC7F0FA72EAFC197005C3A28 /* Components */,
+				EC7F0FA62EAFC190005C3A28 /* Scenes */,
+				EC7F0FA42EAFC16A005C3A28 /* Resources */,
+				EC7F0F932EAFC163005C3A28 /* CitySpots.xcdatamodeld */,
+				EC7F0F942EAFC163005C3A28 /* Info.plist */,
+			);
+			path = CitySpots;
+			sourceTree = "<group>";
+		};
+		EC7F0FA42EAFC16A005C3A28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F0F922EAFC163005C3A28 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC7F0FA62EAFC190005C3A28 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F0FB42EAFDBC8005C3A28 /* Explore */,
+				EC7F0FAD2EAFD6D8005C3A28 /* Tabbar */,
+				EC7F0F962EAFC163005C3A28 /* LaunchScreen.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EC7F0FB42EAFDBC8005C3A28 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F0FB92EAFDBFB005C3A28 /* Views */,
+				EC7F0FB82EAFDBF4005C3A28 /* Factory */,
+				EC7F0FB72EAFDBE1005C3A28 /* Router */,
+				EC7F0FB62EAFDBDB005C3A28 /* Models */,
+				EC7F0FB52EAFDBD6005C3A28 /* VIP */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		EC7F0FB62EAFDBDB005C3A28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F0FC92EAFDF07005C3A28 /* PlaceCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC7F0FB72EAFDBE1005C3A28 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F0FC62EAFDED2005C3A28 /* ExploreRoutes.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,7 +179,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EC7F0F752EAFC0A1005C3A28 /* CitySpots */,
+				EC7F0FA52EAFC183005C3A28 /* Helpers */,
+				EC7F0FA72EAFC197005C3A28 /* Components */,
+				EC7F0FA82EAFC19E005C3A28 /* Extensions */,
+				EC7F0FAD2EAFD6D8005C3A28 /* Tabbar */,
+				EC7F0FB52EAFDBD6005C3A28 /* VIP */,
+				EC7F0FB82EAFDBF4005C3A28 /* Factory */,
+				EC7F0FB92EAFDBFB005C3A28 /* Views */,
 			);
 			name = CitySpots;
 			packageProductDependencies = (
@@ -122,6 +233,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7F0FA02EAFC163005C3A28 /* Assets.xcassets in Resources */,
+				EC7F0FA22EAFC163005C3A28 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +245,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7F0F9C2EAFC163005C3A28 /* AppDelegate.swift in Sources */,
+				EC7F0F9D2EAFC163005C3A28 /* SceneDelegate.swift in Sources */,
+				EC7F0FC72EAFDED2005C3A28 /* ExploreRoutes.swift in Sources */,
+				EC7F0FCA2EAFDF07005C3A28 /* PlaceCategory.swift in Sources */,
+				EC7F0F9E2EAFC163005C3A28 /* CitySpots.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC7F0F962EAFC163005C3A28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7F0F952EAFC163005C3A28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EC7F0F8A2EAFC0A2005C3A28 /* Debug */ = {
@@ -148,11 +277,12 @@
 				DEVELOPMENT_TEAM = 8RR26756PN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CitySpots/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CitySpots;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -161,6 +291,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.IvanBiriukov.CitySpots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -180,11 +314,12 @@
 				DEVELOPMENT_TEAM = 8RR26756PN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CitySpots/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CitySpots;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -193,6 +328,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.IvanBiriukov.CitySpots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -345,6 +484,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC7F0F932EAFC163005C3A28 /* CitySpots.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC7F0F9B2EAFC163005C3A28 /* CitySpots.xcdatamodel */,
+			);
+			currentVersion = EC7F0F9B2EAFC163005C3A28 /* CitySpots.xcdatamodel */;
+			path = CitySpots.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC7F0F6B2EAFC0A1005C3A28 /* Project object */;
 }
